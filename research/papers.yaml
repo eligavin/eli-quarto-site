@@ -1,0 +1,176 @@
+
+- title: "Beyond Opportunity Costs: Campaign Messages, Anger, and Turnout among the Unemployed"
+  type: "Article"
+  author:
+    - S. Erdem Aytaç
+    - Eli G. Rau
+    - Susan Stokes
+  year: 2020
+  date: 2020-09-01
+  journal: "<em>British Journal of Political Science</em>"
+  pdf: "../files/bjps2020.pdf"
+  pubopen: "https://www.cambridge.org/core/journals/british-journal-of-political-science/article/beyond-opportunity-costs-campaign-messages-anger-and-turnout-among-the-unemployed/444928192590BEE9B4FB47BB4B7507D9"
+  dataverse: "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/USKUR2&widget=dataverse@harvard"
+  appendix: "../files/bjps2020-app.pdf"
+  categories: 
+    - Participation
+    - Political Economy
+  abstract: "Are people under economic stress more or less likely to vote, and why? With large observational datasets and a survey experiment involving unemployed Americans, we show that unemployment depresses participation. But it does so more powerfully when the unemployment rate is low, less powerfully when it is high. Whereas earlier studies have explained lower turnout among the unemployed by stressing the especially high opportunity costs these would-be voters face, our evidence points to the psychological effects of unemployment and of campaign messages about it. When unemployment is high, challengers have an incentive to blame the incumbent, thus eliciting anger among the unemployed. Psychologists have shown anger to be an approach or mobilizing emotion. When joblessness is low, campaigns tend to ignore it. The jobless thus remain in states of depression and self-blame, which are demobilizing emotions."
+
+
+- title: "Partisanship as Cause, Not Consequence, of Partisanship"
+  type: "Article"
+  author: 
+    - Eli G. Rau
+  year: 2022
+  date: 2022-09-01
+  journal: "<em>Comparative Political Studies</em>"
+  pubclosed: "https://journals.sagepub.com/doi/abs/10.1177/00104140211047406"
+  dataverse: "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MRGM0K"
+  pdf: "../files/cps_chile.pdf"
+  appendix: "../files/cps_chile-app.pdf"
+  categories:
+    - Participation
+    - Latin American Politics
+  abstract: "In most democracies, citizens who identify with a political party are more likely than non-partisans to turn out to vote. But why is this the case? Does voting foster partisanship, as prominent models of political learning and cognitive dissonance postulate? Or does partisanship encourage voting, as expressive voting models and social identity theory suggest? I introduce the concept of partisan duty to capture the role of partisan social identities in the turnout decision and present new empirical tests of the relationship between partisanship and voting. I leverage a unique institutional arrangement in Chile to establish the direction of causality with a regression discontinuity, and I implement a novel survey design with behavioral outcomes to identify causal mechanisms. Data from the US confirm that the main findings generalize beyond Chile. Electoral participation does not generate partisanship. Instead, partisanship mobilizes voters: it increases the expressive benefits to voting and generates a sense of duty to support one’s partisan group."
+  
+- title: "Expert Bias and Democratic Erosion: Assessing Expert Perceptions of Contemporary American Democracy"
+  type: "Article"
+  author: 
+    - Olivier Bergeron-Boutin
+    - John Carey
+    - Gretchen Helmke
+    - Eli G. Rau
+  year: 2024
+  date: 2024-02-01
+  journal: "<em>PS: Political Science and Politics</em>"
+  pubopen: "https://www.cambridge.org/core/journals/ps-political-science-and-politics/article/expert-bias-and-democratic-erosion-assessing-expert-perceptions-of-contemporary-american-democracy/0620719DD8C8A4FE1055AF268A3732E0"
+  dataverse: "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/0H0X7O"
+  pdf: "../files/expert_bias.pdf"
+  categories:
+    - Democratic Erosion
+  abstract: "In an important contribution to scholarship on measuring democratic performance, Little and Meng suggest that bias among expert coders accounts for erosion in ratings of democratic quality and performance observed in recent years. Drawing on 19 waves of survey data on US democracy from academic experts and from the public collected by Bright Line Watch (BLW), this study looks for but does not find manifestations of the type of expert bias that Little and Meng posit. Although we are unable to provide a direct test of Little and Meng’s hypothesis, several analyses provide reassurance that expert samples are an informative source to measure democratic performance. We find that respondents who have participated more frequently in BLW surveys, who have coded for V-Dem, and who are vocal about the state of American democracy on Twitter are no more pessimistic than other participants."
+
+- title: "Why is Participation Low in Referendums? Lessons from Latin America"
+  type: "Article"
+  author: 
+    - Eli G. Rau
+    - Radha Sarkar
+    - Susan Stokes
+  date: 2024-09-15
+  year: "Forthcoming"
+  journal: "<em>Latin American Research Review</em>"
+  dataverse: "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EXYX5U"
+  pdf: "../files/larr2024.pdf"
+  appendix: "../files/larr2024-app.pdf"
+  categories:
+    - Participation
+    - Latin American Politics
+    - Institutions
+  abstract: "Whether referendums, initiatives, and other mechanisms of direct democracy enhance
+representative systems is a matter of debate. Skeptics note — among other criticisms — that
+turnout tends to be low in referendums, often lower than in candidate elections in the same
+country. If citizens do not care enough to participate, how useful can these mechanisms be for
+improving the quality of democratic systems? We argue that low referendum turnout has as much
+to do with parties’ disincentives to mobilize voters as with voter disinterest. Prior research on
+political behavior in referendums has focused largely on Europe, and assumes that voters view
+them as elections of lesser importance. By shifting focus to Latin America, we introduce more
+variation in the features of political parties that influence levels of turnout. We draw on cross-
+national evidence, qualitative research in Colombia, and quantitative analysis of municipal-level
+referendum voting behavior in Brazil. The key to understanding low voter turnout in these
+settings is the relatively weaker incentives that political parties have to turn out the vote when
+control over office is not at stake. We demonstrate that, in clientelistic systems, party operatives
+have particularly weak incentives to get their constituents out to the polls."
+    
+- title: "Can Compulsory Voting Strengthen Democracy?"    
+  type: "Book"
+  author: 
+    - Eli G. Rau
+  date: 2024-09-01
+  status: "Book manuscript"
+  categories: 
+    - Participation
+    - Institutions
+  booksummary: "In his 1996 Presidential Address to the American Political Science Association, Arend Lijphart termed inequality in political participation “democracy’s unresolved dilemma.” Certain groups — particularly the poor and less educated — are systematically less likely to vote in elections. This inequality in turnout translates into inequality in representation. The most well-off citizens have outsized political influence, diminishing the quality of democracy. To remedy this fundamental problem facing democracies, Lijphart argued forcefully for compulsory voting. 
+<br/><br/>
+Growing concerns about the strength and stability of democracy around the world have sparked a renewed interest in compulsory voting and its potential to strengthen democracy. In this book, I address whether compulsory voting can improve the quality of democracy and whether it can make democracy more resilient to threats of erosion. 
+<br/><br/>
+Employing a wide variety of methods and extensive new data collection on how countries implement mandatory voting laws, I show that compulsory voting is one of the best tools available to promote political equality. I also study the institution’s implications for partisanship, polarization, and attitudes towards democracy. "
+  taboc: "../files/toc.pdf"
+#  previewtext: "../files/ch1.pdf"
+
+- title: "Towards Tolerance and Acceptance: Public Opinion and LGBTQ+ Politics in Latin America"
+  type: "Book"
+  author: 
+    - Mariela Daby
+    - Eli G. Rau
+  date: 2024-08-15
+  status: "Under contract at <em>Cambridge Elements in Gender & Politics</em>"
+  categories:
+    - Public Opinion
+    - LGBTQ+ Politics
+    - Latin American Politics
+  booksummary: "Latin America has experienced an unprecedented expansion of LGBTQ+ rights in recent years. Although immense obstacles remain for LGBTQ+ citizens, countries such as Argentina and Uruguay have become world leaders in enacting LGBTQ+ rights. At the same time, public opinion has shifted dramatically towards more positive sentiments. What underlies these shifting attitudes? We show how individual-level behavioral mechanisms interact with broad structural factors — including economic incentives, demographic changes, and legacies of human rights violations — to move people from prejudice and rejection to tolerance and acceptance."
+  
+- title: "Measuring Gender in Comparative Survey Research"
+  type: "Paper"
+  author:
+    - Oscar Castoreña
+    - Eli G. Rau
+    - Valerie Schweizer-Robinson
+    - Elizabeth J. Zechmeister
+  date: 2024-09-01
+  status: "<em>Revise & Resubmit</em>"
+  categories:
+    - Methods
+  abstract: "As societal conceptions of gender have evolved, so too have survey-based approaches to the measurement of gender. Research in and outside of political science has produced significant innovations and insights. However, most efforts focus on Global North-based surveys, typically fielded online or by phone. We focus on the Global South – in particular, the Latin America and Caribbean region. Through in-person interviews, an online experiment, and a survey experiment, we identify and assess an open-ended approach to incorporating respondent-provided gender identity in face-to-face interviews in these contexts. Our results affirm the measure is comparatively effective in minimizing discomfort and does not have substantial consequences for data quality. Yet, we acknowledge that even an optimal gender self-identification question provokes discomfort among some interviewees (and interviewers). We conclude with a set of considerations that researchers ought to deliberate over when deciding when and how to incorporate a measure of gender into face-to-face surveys."
+
+- title: "Inequality and Democratic Erosion"
+  type: "Paper"
+  author:
+    - Eli G. Rau
+    - Susan Stokes
+  date: 2024-09-15
+  status: "<em>Under review</em>"
+  categories:
+    - Democratic Erosion
+    - Political Economy
+  abstract: "Among the most pressing problems societies face today are economic inequality and the erosion of democratic norms and institutions. Some have suggested that these two problems — inequality and democratic erosion — are linked. In the first large cross-national statistical test of this proposition, we establish that economic inequality is one of the strongest predictors of where and when democracy erodes. Even wealthy and longstanding democracies are vulnerable if they are highly unequal (though national wealth might provide some resiliency). The association between inequality and risk of democratic backsliding is robust, and holds under different measures and structures of both income inequality and wealth inequality. The association is unlikely to be a case of reverse causation. For concerned students of democracy seeking to understand why so many democracies are eroding and how to stop this process, our study indicates that policies for ameliorating inequality are a promising path forward."
+
+- title: "Public Tolerance for Anti-Democratic Behavior"
+  type: "Paper"
+  author:
+    - Noam Lupu
+    - Eli G. Rau
+    - Elizabeth J. Zechmeister
+  date: 2024-08-15
+  status: "Working paper"
+  categories:
+    - Democratic Erosion
+    - Public Opinion
+  abstract: "From the United States to Brazil to India, voters around the world have elected leaders 
+  who erode their democracies. Recent work has pointed to partisan polarization as a key enabler 
+  of democratic erosion. But we show that partisanship is not a prerequisite for tolerating — even 
+  supporting — anti-democratic behavior. Universal norms of reciprocity provide the basis for a 
+  tit-for-tat justification: if the other side violated democratic norms first, then an in-kind 
+  response is justified. Combining data from nationally representative surveys across Latin America
+  and online survey experiments in the United States, Peru, and Colombia, we show that non-partisans 
+  are responsive to tit-for-tat justifications. Our results also shed light on the common finding that 
+  voters claim to value democracy while supporting politicians who erode democratic norms. When 
+  constitutional hardball is framed as a tit-for-tat response to similar behavior from an opposition party, 
+  voters begin to see it as more democratic — perhaps restoring some balance to democracy by evening the 
+  playing field, or ''punishing'' the opposition to deter future anti-democratic moves."
+
+- title: "Tolerance towards Gender and Sexual Minorities: A Survey Experiment in Latin America and the Caribbean"
+  type: "Paper"
+  author:
+    - Oscar Castoreña
+    - Eli G. Rau
+    - Valerie Schweizer-Robinson
+    - Elizabeth J. Zechmeister
+  date: 2024-08-01
+  status: "In progress"
+  categories:
+    - Public Opinion
+    - LGBTQ+ Politics
+    - Latin American Politics

@@ -1,0 +1,50 @@
+---
+title: "Teaching"
+description: "" 
+title-block: false  # This hides the title on the page
+toc: false    
+page-layout: article
+format: html
+---
+
+### Tecnológico de Monterrey (Instructor of Record)
+
+```{=html}
+<i class="bi bi-diagram-2 ai-lg"></i> &nbsp; Political Analysis (undergraduate)
+<br/>
+<i class="bi bi-chat-text ai-lg"></i> &nbsp; Political Communication and Public Opinion (undergraduate)
+
+<br/>
+
+<br/>
+```
+### Yale University (Teaching Fellow)
+
+```{=html}
+<small class="text-secondary">
+          <span class="note">
+          As a teaching fellow, I prepared weekly lectures and practice problem sessions and provided additional guidance in office hours. 
+        </span>    
+        </small>
+
+<div style="height: 6px;"></div>
+
+
+<i class="bi bi-dice-5 ai-lg"></i> &nbsp; The Design and Analysis of Randomized Field Experiments in Political Science (PhD)
+
+<br/>
+
+<i class="bi bi-cash-coin ai-lg"></i> &nbsp; Introduction to Political Economy (PhD)
+
+<br/>
+
+<i class="bi bi-diagram-3 ai-lg"></i> &nbsp; Introduction to Game Theory (PhD)
+
+<br/>
+
+<i class="bi bi-diagram-3 ai-lg"></i> &nbsp; Game Theory and International Relations (undergraduate)
+
+<br/>
+
+<br/>
+```

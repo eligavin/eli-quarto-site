@@ -1,0 +1,145 @@
+/* css styles */
+
+:root {
+  
+  --color-background:   #e9edf2;
+  --color-primary:      #0259b0;
+  --color-secondary:    #610a0a;
+  
+}
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Apply imported font */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.about-contents p {
+  margin-bottom: 1em; /* Adjust the value for more or less space */
+}
+
+/* Links */
+
+a {
+    color: var(--color-primary);
+    border-bottom: 0px;
+    text-decoration: none;
+}
+
+d-article a {
+    color: var(--color-primary);
+    border-bottom: 0px;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: var(--color-secondary);
+    font-weight: 500;
+    border-color: var(--color-secondary);
+}
+
+d-article a:hover, a:focus {
+    color: var(--color-secondary);
+    font-weight: 500;
+    border-color: var(--color-secondary);
+}
+
+blockquote {
+    border: none !important;
+    font-style: normal !important;
+}
+
+
+/* Formatting the "about" page buttons */
+.about-link {
+    font-size: 15px !important; /* Increase font size */
+}
+
+.about-link:hover {
+  color: #e9edf2 !important; /* Text color on hover */
+  background-color: #343a41; /* Background color on hover */
+  border: 2px solid #343a41; /* Border color on hover */
+}
+
+/* Style for icons inside the button */
+.about-link:hover i {
+  color: #e9edf2; /* Inherit color from the button */
+}
+
+
+/* Hide AnchorJS symbols */
+.anchorjs-link {
+  display: none; /* Hide the anchor link symbols */
+}
+
+
+/* Formatting for research page */ 
+.btn-xs {
+    padding: 1px 5px;
+    font-size: 15px;
+    border-radius: 5px; /* rounded corners for buttons */
+  }
+
+.ai-lg {
+  font-size: 1.2em;  /* Adjust as needed */
+}
+
+.list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+  }
+  
+.note {
+    display: inline; /* Prevents extra block-level spacing */
+  }
+  details {
+    display: inline; /* Prevents extra block-level spacing */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+  }
+  summary {
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+  }
+  p {
+    margin: 0; /* Removes default margin */
+  }
+  
+
+
+/* change "Categories" to "Topics" for research topics list */
+h5.quarto-listing-category-title::before {
+  content: "Topics"; /* Replace "Categories" with "Topics" */
+}
+
+h5.quarto-listing-category-title {
+  visibility: hidden; /* Hide the original "Categories" text */
+}
+
+h5.quarto-listing-category-title::before {
+  visibility: visible; /* Ensure the "Topics" text is visible */
+  display: inline-block; /* Maintain the layout */
+}
+
+
+
+div:has(> blockquote) {
+  background-color: #ededed;
+  margin: 5px auto;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+blockquote p::before {
+  content: '\201C';
+}
+
+blockquote p::after {
+  content: '\201D';
+}
+
+blockquote + p {
+  text-align: right;
+}

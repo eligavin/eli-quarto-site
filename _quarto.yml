@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Eli G. Rau"
+  navbar:
+    left:
+      - research/research.qmd
+      - teaching.qmd
+      - text: "CV"
+        href: "files/elirau_cv.pdf"
+  search: false
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    page-layout: full
+
+editor: visual
+
+resources:
+  - CNAME
+

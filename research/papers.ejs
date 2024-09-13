@@ -1,0 +1,132 @@
+```{=html}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
+
+<style>
+h1.title {
+  display: none;
+}
+</style>
+  
+  
+  
+  <ul class="list">
+  <% for (const item of items) { %>
+    <li <%= metadataAttrs(item) %>>
+  <%= item.title %> 
+  <br/>
+  <p>
+  <!-- paper info for not-yet-published work -->
+  <% if (item.type !== 'Article') { %>
+  <small class="text-muted">
+  <%= item.author %>. <%= item.status %>.
+</small>
+  <% } %>
+  
+  <!-- paper info for published work -->
+  <% if (item.type === 'Article') { %>
+  <small class="text-muted">
+  <%= item.year %>. <%= item.author %>. <%= item.journal %>.
+</small>
+  <% } %>
+  
+  <br/>
+  
+  <div class="buttons">
+
+  <% if (item.buypublisher) { %>
+  <a role="button" href="<%= item.pdf %>" type="button" class="btn btn-outline-secondary btn-xs"> 
+  <i class="bi bi-cart3 ai-lg"></i> Purchase here 
+</a> 
+  <% } %>
+  
+    <% if (item.amazon) { %>
+  <a role="button" href="<%= item.pdf %>" type="button" class="btn btn-outline-secondary btn-xs"> 
+  <i class="bi bi-amazon ai-lg"></i> Amazon 
+</a> 
+  <% } %>
+
+  <% if (item.pdf) { %>
+  <a role="button" href="<%= item.pdf %>" type="button" class="btn btn-outline-secondary btn-xs"> 
+  <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
+</a> 
+  <% } %>
+  
+        <% if (item.appendix) { %>
+        <a role="button" href="<%= item.appendix %>" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="bi bi-file-earmark-plus ai-lg"></i> Appendix 
+        </a>
+      <% } %>
+  
+  <% if (item.pubopen) { %>
+  <a role="button" href="<%= item.pubopen %>" type="button" class="btn btn-outline-secondary btn-xs"> 
+  <i class="bi bi-link-45deg ai-lg"></i> Publisher's Version 
+</a>
+  <% } %>
+  
+  <% if (item.pubclosed) { %>
+  <a role="button" href="<%= item.pubclosed %>" type="button" class="btn btn-outline-secondary btn-xs"> 
+  <i class="bi bi-link-45deg ai-lg"></i> Publisher's Version 
+        </a>
+      <% } %>
+      
+      
+      <% if (item.dataverse) { %>
+        <a role="button" href="<%= item.dataverse %>" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="ai ai-dataverse ai-lg"></i> Replication 
+        </a>
+      <% } %>
+      
+      <% if (item.prereg) { %>
+        <a role="button" href="<%= item.prereg %>" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="ai ai-preregistered ai-lg"></i> Preregistration 
+        </a> 
+      <% } %>
+      
+              <% if (item.taboc) { %>
+  <a role="button" href="<%= item.taboc %>" type="button" class="btn btn-outline-secondary btn-xs"> 
+  <i class="bi bi-list ai-lg"></i> Table of Contents 
+        </a>
+      <% } %>
+      
+        <% if (item.previewtext) { %>
+  <a role="button" href="<%= item.previewtext %>" type="button" class="btn btn-outline-secondary btn-xs"> 
+  <i class="ai ai-obp ai-lg"></i> Preview Text
+        </a>
+      <% } %>
+      </div> 
+      
+      
+      <% if ((item.prereg || item.dataverse || item.pdf || item.appendix || item.pubclosed || item.pubopen || item.taboc || item.previewtext || item.buypublisher || item.amazon) && (item.abstract || item.booksummary)) { %>
+          <div style="height: 5px;"></div>
+            <% } %>
+
+      
+      <% if (item.abstract) { %>
+        <small class="text-secondary">
+          <span class="note">
+          <details><summary>View Abstract</summary>
+          <%= item.abstract %>
+          </details></span>    
+        </small>
+      <% } %>
+      
+            
+      <% if (item.booksummary) { %>
+        <small class="text-secondary">
+          <span class="note">
+          <details><summary>View Summary</summary>
+          <%= item.booksummary %>
+          </details></span>    
+        </small>
+      <% } %>
+      
+      </p>
+      <hr>
+    </li>
+  <% } %>
+</ul>
+
+```
+
+

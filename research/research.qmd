@@ -1,0 +1,53 @@
+---
+title: "Research"
+description: "" 
+title-block: false  # This hides the title on the page
+listing:
+
+  - id: book-projects
+    include: 
+      type: "Book"
+    contents: papers.yaml
+    template: papers.ejs
+    filter-ui: false
+    sort: "date desc"
+    sort-ui: false
+    categories: true
+
+  - id: published-papers
+    include: 
+      type: "Article"
+    contents: papers.yaml
+    template: papers.ejs
+    filter-ui: false
+    sort: "date desc"
+    sort-ui: false
+    categories: true  
+
+  - id: working-papers
+    include: 
+      type: "Paper"
+    contents: papers.yaml
+    template: papers.ejs
+    #filter-ui: true
+    sort: "date desc" 
+    sort-ui: false
+    categories: true
+toc: false    
+page-layout: article
+---
+
+## Book Projects
+
+::: {#book-projects}
+:::
+
+## Published Papers
+
+::: {#published-papers}
+:::
+
+## Working Papers
+
+::: {#working-papers}
+:::

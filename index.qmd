@@ -1,0 +1,22 @@
+---
+title: "Eli G. Rau"
+about:
+  template: trestles
+  image: "images/headshot.png"
+  image-width: 15em
+  links:
+    - icon: envelope-fill
+      text: Email
+      href: mailto:elirau2@gmail.com
+    - icon: google
+      text: Scholar
+      href: "https://scholar.google.com/citations?user=vEqWK04AAAAJ"
+---
+
+I am an Assistant Professor of Political Science at [Tecnológico de Monterrey](https://tec.mx/es), researching electoral institutions and participation; various forms of inequality; and democratic erosion. I earned my PhD at Yale in December 2021 and I was formerly a postdoctoral fellow at Princeton's [Center for the Study of Democratic Politics](https://csdp.princeton.edu/) and Vanderbilt's [Latin American Public Opinion Project](https://www.vanderbilt.edu/lapop/about-americasbarometer.php).
+
+My book project, *Can Compulsory Voting Strengthen Democracy?*, examines the potential for compulsory voting laws to improve the quality and resilience of democracy. Drawing on a wide variety of methods and extensive new data collection on how countries implement mandatory voting laws, I show that compulsory voting is one of the best tools available to promote political equality. I also study the institution's implications for partisanship, polarization, and attitudes towards democracy.
+
+My research has been published in *Comparative Political Studies*, *British Journal of Political Science*, *PS: Political Science and Politic*s, and *Latin American Research Review*.
+
+I teach courses on game theory, political economy, experiments, and public opinion.
