@@ -7,7 +7,8 @@ website:
   navbar:
     left:
       - research/research.qmd
-      - teaching.qmd
+      - text: "Teaching"
+        href: teaching.qmd
       - text: "CV"
         href: "files/elirau_cv.pdf"
   search: false
