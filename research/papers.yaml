@@ -67,20 +67,7 @@
     - Participation
     - Latin American Politics
     - Institutions
-  abstract: "Whether referendums, initiatives, and other mechanisms of direct democracy enhance
-representative systems is a matter of debate. Skeptics note — among other criticisms — that
-turnout tends to be low in referendums, often lower than in candidate elections in the same
-country. If citizens do not care enough to participate, how useful can these mechanisms be for
-improving the quality of democratic systems? We argue that low referendum turnout has as much
-to do with parties’ disincentives to mobilize voters as with voter disinterest. Prior research on
-political behavior in referendums has focused largely on Europe, and assumes that voters view
-them as elections of lesser importance. By shifting focus to Latin America, we introduce more
-variation in the features of political parties that influence levels of turnout. We draw on cross-
-national evidence, qualitative research in Colombia, and quantitative analysis of municipal-level
-referendum voting behavior in Brazil. The key to understanding low voter turnout in these
-settings is the relatively weaker incentives that political parties have to turn out the vote when
-control over office is not at stake. We demonstrate that, in clientelistic systems, party operatives
-have particularly weak incentives to get their constituents out to the polls."
+  abstract: "Whether referendums, initiatives, and other mechanisms of direct democracy enhance representative systems is a matter of debate. Skeptics note — among other criticisms — that turnout tends to be low in referendums, often lower than in candidate elections in the same country. If citizens do not care enough to participate, how useful can these mechanisms be for improving the quality of democratic systems? We argue that low referendum turnout has as much to do with parties’ disincentives to mobilize voters as with voter disinterest. Prior research on political behavior in referendums has focused largely on Europe, and assumes that voters view them as elections of lesser importance. By shifting focus to Latin America, we introduce more variation in the features of political parties that influence levels of turnout. We draw on cross-national evidence, qualitative research in Colombia, and quantitative analysis of municipal-level referendum voting behavior in Brazil. The key to understanding low voter turnout in these settings is the relatively weaker incentives that political parties have to turn out the vote when control over office is not at stake. We demonstrate that, in clientelistic systems, party operatives have particularly weak incentives to get their constituents out to the polls."
     
 - title: "Can Compulsory Voting Strengthen Democracy?"    
   type: "Book"
@@ -132,12 +119,17 @@ Employing a wide variety of methods and extensive new data collection on how cou
     - Eli G. Rau
     - Susan Stokes
   date: 2025-01-01
-  year: "Forthcoming"
+  year: 2025
   journal: "<em>Proceedings of the National Academy of Sciences</em>"
+  pubopen: "https://www.pnas.org/doi/10.1073/pnas.2422543121"
+  dataverse: "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/KTXHGV"
+  pdf: "../files/pnas2025.pdf"
+  appendix: "../files/pnas2025-app.pdf"
+
   categories:
     - Democratic Erosion
     - Political Economy
-  abstract: "Among the most pressing problems societies face today are economic inequality and the erosion of democratic norms and institutions. In fact the two problems — inequality and democratic erosion — are linked. In the first large cross-national statistical study of risk factors for democratic erosion, we establish that economic inequality is one of the strongest predictors of where and when democracy erodes. Even wealthy and longstanding democracies are vulnerable if they are highly unequal (though national wealth might provide some resiliency). The association between inequality and risk of democratic backsliding is robust, and holds under different measures and structures of both income inequality and wealth inequality. The association is unlikely to be a case of reverse causation. For concerned citizens seeking to understand why so many democracies are eroding and how to stop this process, our study indicates that policies for ameliorating inequality are a promising path forward."
+  abstract: "Among the most pressing problems societies face today are economic inequality and the erosion of democratic norms and institutions. In fact the two problems—inequality and democratic erosion—are linked. In a large cross-national statistical study of risk factors for democratic erosion, we establish that economic inequality is one of the strongest predictors of where and when democracy erodes. Even wealthy and longstanding democracies are vulnerable if they are highly unequal (though national wealth might provide some resiliency). The association between inequality and risk of democratic backsliding is robust, and holds under different measures and structures of both income inequality and wealth inequality. The association is unlikely to be a case of reverse causation. For concerned citizens seeking to understand why so many democracies are eroding and how to stop this process, our study indicates that policies for ameliorating inequality are a promising path forward."
   
 - title: "Public Tolerance for Anti-Democratic Behavior"
   type: "Paper"
