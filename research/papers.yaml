@@ -57,18 +57,19 @@
     - Eli G. Rau
     - Radha Sarkar
     - Susan Stokes
-  date: 2024-09-15
-  year: "Forthcoming"
+  date: 2025-01-01
+  year: 2025
   journal: "<em>Latin American Research Review</em>"
+  pubopen: "https://www.cambridge.org/core/journals/latin-american-research-review/article/why-is-participation-low-in-referendums-lessons-from-latin-america/B174FB392AC488769EA84A279799AB88"
   dataverse: "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EXYX5U"
-  pdf: "../files/larr2024.pdf"
-  appendix: "../files/larr2024-app.pdf"
+  pdf: "../files/larr2025.pdf"
+  appendix: "../files/larr2025-app.pdf"
   categories:
     - Participation
     - Latin American Politics
     - Institutions
-  abstract: "Whether referendums, initiatives, and other mechanisms of direct democracy enhance representative systems is a matter of debate. Skeptics note — among other criticisms — that turnout tends to be low in referendums, often lower than in candidate elections in the same country. If citizens do not care enough to participate, how useful can these mechanisms be for improving the quality of democratic systems? We argue that low referendum turnout has as much to do with parties’ disincentives to mobilize voters as with voter disinterest. Prior research on political behavior in referendums has focused largely on Europe, and assumes that voters view them as elections of lesser importance. By shifting focus to Latin America, we introduce more variation in the features of political parties that influence levels of turnout. We draw on cross-national evidence, qualitative research in Colombia, and quantitative analysis of municipal-level referendum voting behavior in Brazil. The key to understanding low voter turnout in these settings is the relatively weaker incentives that political parties have to turn out the vote when control over office is not at stake. We demonstrate that, in clientelistic systems, party operatives have particularly weak incentives to get their constituents out to the polls."
-    
+  abstract: "Whether referendums, initiatives, and other mechanisms of direct democracy enhance representative systems is a matter of debate. Skeptics note—among other criticisms—that turnout tends to be low in referendums, often lower than in candidate elections in the same country. If citizens do not care enough to participate, how useful can these mechanisms be for improving the quality of democratic systems? We argue that low referendum turnout has as much to do with parties’ disincentives to mobilize voters as it does with voter disinterest. Prior research on political behavior in referendums has focused largely on Europe and assumes that voters view them as elections of lesser importance. By shifting focus to Latin America, we introduce more variation in the features of political parties that influence levels of turnout. We draw on cross-national evidence, qualitative research in Colombia, and quantitative analysis of municipal-level referendum voting behavior in Brazil. The key to understanding low voter turnout in these settings is the relatively weaker incentives that political parties have to turn out the vote when control over office is not at stake. We demonstrate that, in clientelistic systems, party operatives have particularly weak incentives to get their constituents out to the polls."
+  
 - title: "Can Compulsory Voting Strengthen Democracy?"    
   type: "Book"
   author: 
@@ -118,14 +119,13 @@ Employing a wide variety of methods and extensive new data collection on how cou
   author:
     - Eli G. Rau
     - Susan Stokes
-  date: 2025-01-01
+  date: 2025-01-05
   year: 2025
   journal: "<em>Proceedings of the National Academy of Sciences</em>"
   pubopen: "https://www.pnas.org/doi/10.1073/pnas.2422543121"
   dataverse: "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/KTXHGV"
   pdf: "../files/pnas2025.pdf"
   appendix: "../files/pnas2025-app.pdf"
-
   categories:
     - Democratic Erosion
     - Political Economy
