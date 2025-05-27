@@ -24,4 +24,5 @@ editor: visual
 
 resources:
   - CNAME
+  - styles.css
 
