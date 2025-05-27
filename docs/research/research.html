@@ -90,9 +90,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-type','listing-author','listing-year','listing-date','listing-journal','listing-pdf','listing-pubopen','listing-dataverse','listing-appendix','listing-categories','listing-abstract','listing-pubclosed',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-title','listing-type','listing-author','listing-year','listing-date','listing-journal','listing-pdf','listing-pubopen','listing-dataverse','listing-appendix','listing-categories','listing-abstract','listing-pubclosed','listing-related',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-type","listing-author","listing-year","listing-date","listing-journal","listing-pdf","listing-pubopen","listing-dataverse","listing-appendix","listing-categories","listing-abstract","listing-pubclosed"],
+      searchColumns: ["listing-title","listing-type","listing-author","listing-year","listing-date","listing-journal","listing-pdf","listing-pubopen","listing-dataverse","listing-appendix","listing-categories","listing-abstract","listing-pubclosed","listing-related"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -169,6 +169,9 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href=".quarto-toc, .quarto-categories {
+  font-size: 1.2em;  # Adjust this value as needed
+}">
 </head>
 
 <body class="nav-fixed">
@@ -211,7 +214,16 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(10)</span></div><div class="category" data-category="Democratic Erosion">Democratic Erosion <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Institutions">Institutions <span class="quarto-category-count">(2)</span></div><div class="category" data-category="LGBTQ+ Politics">LGBTQ+ Politics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Latin American Politics">Latin American Politics <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Methods">Methods <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Participation">Participation <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Political Economy">Political Economy <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Public Opinion">Public Opinion <span class="quarto-category-count">(3)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#book-projects" id="toc-book-projects" class="nav-link active" data-scroll-target="#book-projects">Book Projects</a></li>
+  <li><a href="#published-papers" id="toc-published-papers" class="nav-link" data-scroll-target="#published-papers">Published Papers</a></li>
+  <li><a href="#working-papers" id="toc-working-papers" class="nav-link" data-scroll-target="#working-papers">Working Papers</a></li>
+  </ul>
+</nav>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(10)</span></div><div class="category" data-category="Democratic Erosion">Democratic Erosion <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Electoral Institutions">Electoral Institutions <span class="quarto-category-count">(2)</span></div><div class="category" data-category="LGBTQ+ Politics">LGBTQ+ Politics <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Latin American Politics">Latin American Politics <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Methods">Methods <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Participation">Participation <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Political Economy">Political Economy <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Public Opinion">Public Opinion <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -250,7 +262,8 @@ h1.title {
   
   <ul class="list">
   
-    <li data-index="0" data-categories="Participation,Institutions" data-listing-date-sort="1725163200000">
+    <li data-index="0" data-categories="Participation,Electoral Institutions" data-listing-date-sort="1725170400000">
+    <div class="article-entry">
   Can Compulsory Voting Strengthen Democracy? 
   <br>
   <p>
@@ -312,11 +325,18 @@ h1.title {
         </small>
       
       
-      <p></p>
+            <p></p>
+      
+        
+  
+      
+
       <hr>
+      </div>
     </li>
   
-    <li data-index="1" data-categories="Public Opinion,LGBTQ+ Politics,Latin American Politics" data-listing-date-sort="1723694400000">
+    <li data-index="1" data-categories="Public Opinion,LGBTQ+ Politics,Latin American Politics" data-listing-date-sort="1723701600000">
+    <div class="article-entry">
   Towards Tolerance and Acceptance: Public Opinion and LGBTQ+ Politics in Latin America 
   <br>
   <p>
@@ -372,8 +392,14 @@ h1.title {
         </small>
       
       
-      <p></p>
+            <p></p>
+      
+        
+  
+      
+
       <hr>
+      </div>
     </li>
   
 </ul>
@@ -399,7 +425,75 @@ h1.title {
   
   <ul class="list">
   
-    <li data-index="0" data-categories="Democratic Erosion,Political Economy" data-listing-date-sort="1736053200000">
+    <li data-index="0" data-categories="Methods,LGBTQ+ Politics" data-listing-date-sort="1744351200000">
+    <div class="article-entry">
+  Measuring Gender in Comparative Survey Research 
+  <br>
+  <p>
+  <!-- paper info for not-yet-published work -->
+  
+  
+  <!-- paper info for published work -->
+  
+  <small class="text-muted">
+  Forthcoming. Oscar Castorena, Eli G. Rau, Valerie Schweizer-Robinson, Elizabeth J. Zechmeister. <em>PS: Political Science and Politics</em>.
+</small>
+  
+  
+  <br>
+  
+  </p><div class="buttons">
+
+  
+  
+    
+
+  
+  
+        
+  
+  
+  
+  
+      
+      
+      
+      
+      
+      
+              
+      
+        
+      </div> 
+      
+      
+      
+
+      
+      
+        <small class="text-secondary">
+          <span class="note">
+          <details><summary>View Abstract</summary>
+          As societal conceptions of gender have evolved, so too have survey-based approaches to the measurement of gender.&nbsp; Yet, most research innovations and insights regarding the measurement of gender come from online or phone surveys in the Global North. We focus on face-to-face surveys in the Global South, in particular in the Latin America and Caribbean (LAC) region. Through in-person interviews, an online experiment, and survey experiments, we identify and assess an open-ended approach to incorporating respondent-provided gender identity in face-to-face interviews. Our results affirm that the measure is comparatively effective in minimizing discomfort and does not have substantial consequences for data quality across a diverse set of LAC countries. We discuss the potential traveling capacity of our approach and identify paths for further research on best practices in recording interviewee gender in face-to-face surveys in the LAC region and beyond.
+          </details></span>    
+        </small>
+      
+      
+            
+      
+      
+            <p></p>
+      
+        
+  
+      
+
+      <hr>
+      </div>
+    </li>
+  
+    <li data-index="1" data-categories="Democratic Erosion,Political Economy" data-listing-date-sort="1736056800000">
+    <div class="article-entry">
   Income Inequality and the Erosion of Democracy in the Twenty-First Century 
   <br>
   <p>
@@ -409,7 +503,7 @@ h1.title {
   <!-- paper info for published work -->
   
   <small class="text-muted">
-  2025. Eli G. Rau, Susan Stokes. <em>Proceedings of the National Academy of Sciences</em>.
+  2025. Eli G. Rau, Susan Stokes. <em><em>Proceedings of the National Academy of Sciences</em></em>.
 </small>
   
   
@@ -473,11 +567,26 @@ h1.title {
             
       
       
-      <p></p>
+            <p></p>
+      
+        
+          <small class="text-muted">
+  <ul class="related-list">
+  
+        <li><u>Related Letter</u>: Rau, E.G. and Stokes, S.C. (2025). Reply to Fiscella: Why study erosion now? And why these risk factors? <em>Proceedings of the National Academy of Sciences</em>, 122(12), e2501249122. <a href="https://www.pnas.org/doi/abs/10.1073/pnas.2501249122" target="_blank">Link</a> / <a href="../files/pnas2025-reply.pdf" target="_blank">PDF</a></li>
+      
+    </ul>
+    </small>
+  
+  
+      
+
       <hr>
+      </div>
     </li>
   
-    <li data-index="1" data-categories="Participation,Latin American Politics,Institutions" data-listing-date-sort="1735707600000">
+    <li data-index="2" data-categories="Participation,Latin American Politics,Electoral Institutions" data-listing-date-sort="1735711200000">
+    <div class="article-entry">
   Why is Participation Low in Referendums? Lessons from Latin America 
   <br>
   <p>
@@ -551,11 +660,18 @@ h1.title {
             
       
       
-      <p></p>
+            <p></p>
+      
+        
+  
+      
+
       <hr>
+      </div>
     </li>
   
-    <li data-index="2" data-categories="Democratic Erosion" data-listing-date-sort="1706763600000">
+    <li data-index="3" data-categories="Democratic Erosion" data-listing-date-sort="1706767200000">
+    <div class="article-entry">
   Expert Bias and Democratic Erosion: Assessing Expert Perceptions of Contemporary American Democracy 
   <br>
   <p>
@@ -625,11 +741,18 @@ h1.title {
             
       
       
-      <p></p>
+            <p></p>
+      
+        
+  
+      
+
       <hr>
+      </div>
     </li>
   
-    <li data-index="3" data-categories="Participation,Latin American Politics" data-listing-date-sort="1662004800000">
+    <li data-index="4" data-categories="Participation,Latin American Politics" data-listing-date-sort="1662008400000">
+    <div class="article-entry">
   Partisanship as Cause, Not Consequence, of Partisanship 
   <br>
   <p>
@@ -703,11 +826,18 @@ h1.title {
             
       
       
-      <p></p>
+            <p></p>
+      
+        
+  
+      
+
       <hr>
+      </div>
     </li>
   
-    <li data-index="4" data-categories="Participation,Political Economy" data-listing-date-sort="1598932800000">
+    <li data-index="5" data-categories="Participation,Political Economy" data-listing-date-sort="1598936400000">
+    <div class="article-entry">
   Beyond Opportunity Costs: Campaign Messages, Anger, and Turnout among the Unemployed 
   <br>
   <p>
@@ -781,8 +911,14 @@ h1.title {
             
       
       
-      <p></p>
+            <p></p>
+      
+        
+  
+      
+
       <hr>
+      </div>
     </li>
   
 </ul>
@@ -808,74 +944,15 @@ h1.title {
   
   <ul class="list">
   
-    <li data-index="0" data-categories="Methods" data-listing-date-sort="1727150400000">
-  Measuring Gender in Comparative Survey Research 
-  <br>
-  <p>
-  <!-- paper info for not-yet-published work -->
-  
-  <small class="text-muted">
-  Oscar Castorena, Eli G. Rau, Valerie Schweizer-Robinson, Elizabeth J. Zechmeister. <em>Revise &amp; Resubmit</em>.
-</small>
-  
-  
-  <!-- paper info for published work -->
-  
-  
-  <br>
-  
-  </p><div class="buttons">
-
-  
-  
-    
-
-  
-  
-        
-  
-  
-  
-  
-      
-      
-      
-      
-      
-      
-              
-      
-        
-      </div> 
-      
-      
-      
-
-      
-      
-        <small class="text-secondary">
-          <span class="note">
-          <details><summary>View Abstract</summary>
-          As societal conceptions of gender have evolved, so too have survey-based approaches to the measurement of gender. Yet most research innovations and insights regarding the measurement of gender come from online or phone surveys in the Global North. We focus on face-to-face surveys in the Global South – in particular, the Latin America and Caribbean (LAC) region. Through in-person interviews, an online experiment, and survey experiments, we identify and assess an open-ended approach to incorporating respondent-provided gender identity in face-to-face interviews. Our results affirm the measure is comparatively effective in minimizing discomfort and does not have substantial consequences for data quality across a diverse set of LAC countries. We discuss the potential traveling capacity of our approach and our recommended question, and we identify potential future paths for research on best practices in recording interviewee gender in face-to-face surveys in the LAC region and beyond.
-          </details></span>    
-        </small>
-      
-      
-            
-      
-      
-      <p></p>
-      <hr>
-    </li>
-  
-    <li data-index="1" data-categories="Democratic Erosion,Public Opinion" data-listing-date-sort="1723694400000">
+    <li data-index="0" data-categories="Democratic Erosion,Public Opinion" data-listing-date-sort="1723701600000">
+    <div class="article-entry">
   Public Tolerance for Anti-Democratic Behavior 
   <br>
   <p>
   <!-- paper info for not-yet-published work -->
   
   <small class="text-muted">
-  Noam Lupu, Eli G. Rau, Elizabeth J. Zechmeister. Working paper.
+  Noam Lupu, Eli G. Rau, Elizabeth J. Zechmeister. <em>Under review</em>.
 </small>
   
   
@@ -924,18 +1001,25 @@ h1.title {
             
       
       
-      <p></p>
+            <p></p>
+      
+        
+  
+      
+
       <hr>
+      </div>
     </li>
   
-    <li data-index="2" data-categories="Public Opinion,LGBTQ+ Politics,Latin American Politics" data-listing-date-sort="1722484800000">
-  Tolerance towards Gender and Sexual Minorities: A Survey Experiment in Latin America and the Caribbean 
+    <li data-index="1" data-categories="Public Opinion,LGBTQ+ Politics,Latin American Politics" data-listing-date-sort="1722492000000">
+    <div class="article-entry">
+  Attitudes towards Gender and Sexual Minorities in Latin America 
   <br>
   <p>
   <!-- paper info for not-yet-published work -->
   
   <small class="text-muted">
-  Oscar Castorena, Eli G. Rau, Valerie Schweizer-Robinson, Elizabeth J. Zechmeister. In progress.
+  Oscar Castorena, Eli G. Rau, Valerie Schweizer-Robinson, Elizabeth J. Zechmeister. <em>Under review</em>.
 </small>
   
   
@@ -977,8 +1061,14 @@ h1.title {
             
       
       
-      <p></p>
+            <p></p>
+      
+        
+  
+      
+
       <hr>
+      </div>
     </li>
   
 </ul>

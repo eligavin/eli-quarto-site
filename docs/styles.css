@@ -109,20 +109,46 @@ blockquote {
   
 
 
-/* change "Categories" to "Topics" for research topics list */
-h5.quarto-listing-category-title::before {
-  content: "Topics"; /* Replace "Categories" with "Topics" */
-}
 
 h5.quarto-listing-category-title {
   visibility: hidden; /* Hide the original "Categories" text */
 }
 
-h5.quarto-listing-category-title::before {
-  visibility: visible; /* Ensure the "Topics" text is visible */
-  display: inline-block; /* Maintain the layout */
+#quarto-margin-sidebar h5.quarto-listing-category-title::before {
+  content: "Filter by topic:";
+  visibility: visible;
+  display: inline-block;
+
+  /* Match TOC styles */
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-top: 1.25rem;
+  margin-bottom: 0.1rem;
+  
+  font-weight: bold;
 }
 
+
+/* Match font size, weight, spacing with TOC nav-links */
+#quarto-margin-sidebar .category {
+  font-size: 0.875rem;      /* same as .nav-link */
+  font-weight: 400;         /* same as .nav-link */
+  color: #212529;           /* dark gray like TOC */
+  cursor: pointer;
+  margin-bottom: 0.1rem; /* smaller spacing */
+}
+
+
+/* Optional: make the count smaller and lighter */
+#quarto-margin-sidebar .quarto-category-count {
+  font-size: 0.75rem;
+  color: #6c757d;
+  margin-left: 0.25rem;
+}
+
+#quarto-margin-sidebar .category.active {
+  font-weight: bold;           /* optional: make it bold */
+}
 
 
 div:has(> blockquote) {
@@ -142,4 +168,18 @@ blockquote p::after {
 
 blockquote + p {
   text-align: right;
+}
+
+.related-list {
+  list-style-type: disc; /* solid bullet */
+  padding-left: 1.7em;   /* optional indent */
+  margin-top: 0.5em;     /* optional spacing */
+}
+
+.related-list li {
+  margin-bottom: 0.3em;  /* optional spacing between bullets */
+}
+
+.related-list li:first-child {
+  margin-top: 1em; /* Adjust this value to add more or less space */
 }

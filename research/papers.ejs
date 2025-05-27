@@ -13,6 +13,7 @@ h1.title {
   <ul class="list">
   <% for (const item of items) { %>
     <li <%= metadataAttrs(item) %>>
+    <div class="article-entry">
   <%= item.title %> 
   <br/>
   <p>
@@ -26,7 +27,7 @@ h1.title {
   <!-- paper info for published work -->
   <% if (item.type === 'Article') { %>
   <small class="text-muted">
-  <%= item.year %>. <%= item.author %>. <%= item.journal %>.
+  <%= item.year %>. <%= item.author %>. <em><%= item.journal %></em>.
 </small>
   <% } %>
   
@@ -121,8 +122,22 @@ h1.title {
         </small>
       <% } %>
       
-      </p>
+            </p>
+      
+        <% if (item.related && item.related.length > 0) { %>
+          <small class="text-muted">
+  <ul class="related-list">
+  <% item.related.forEach(function(relatedItem) { %>
+        <li><%= relatedItem %></li>
+      <% }); %>
+    </ul>
+    </small>
+  <% } %>
+  
+      
+
       <hr>
+      </div>
     </li>
   <% } %>
 </ul>
