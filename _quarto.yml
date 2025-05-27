@@ -16,7 +16,7 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles.css?v=2
+    css: styles.css?v=3
     toc: true
     page-layout: full
 
