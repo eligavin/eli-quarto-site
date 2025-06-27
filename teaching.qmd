@@ -12,6 +12,8 @@ format: html
 ```{=html}
 <i class="bi bi-diagram-2 ai-lg"></i> &nbsp; Political Analysis (undergraduate)
 <br/>
+<i class="bi bi-file-text ai-lg"></i> &nbsp; Senior Thesis Seminar (undergraduate)
+<br/>
 <i class="bi bi-chat-text ai-lg"></i> &nbsp; Political Communication and Public Opinion (undergraduate)
 
 <br/>

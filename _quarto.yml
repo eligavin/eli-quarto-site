@@ -6,7 +6,8 @@ website:
   title: "Eli G. Rau"
   navbar:
     left:
-      - research/research.qmd
+      - text: "Research"
+        href: research/
       - text: "Teaching"
         href: teaching.qmd
       - text: "CV"
