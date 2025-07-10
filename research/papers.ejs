@@ -18,7 +18,7 @@ h1.title {
   <br/>
   <p>
   <!-- paper info for not-yet-published work -->
-  <% if (item.type !== 'Article') { %>
+  <% if (item.type === 'Paper' || item.type === 'Book Manuscript') { %>
   <small class="text-muted">
   <%= item.author %>. <%= item.status %>.
 </small>
@@ -28,6 +28,13 @@ h1.title {
   <% if (item.type === 'Article') { %>
   <small class="text-muted">
   <%= item.year %>. <%= item.author %>. <em><%= item.journal %></em>.
+</small>
+  <% } %>
+  
+  <!-- paper info for popular press -->
+  <% if (item.type === 'Popular') { %>
+  <small class="text-muted">
+  <%= item.date %>. <%= item.author %>. <em><%= item.journal %></em>.
 </small>
   <% } %>
   
@@ -59,15 +66,21 @@ h1.title {
         </a>
       <% } %>
   
-  <% if (item.pubopen) { %>
-  <a role="button" href="<%= item.pubopen %>" type="button" class="btn btn-outline-secondary btn-xs"> 
-  <i class="bi bi-link-45deg ai-lg"></i> Publisher's Version 
-</a>
-  <% } %>
+      <% if (item.pubopen) { %>
+        <a role="button" href="<%= item.pubopen %>" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="ai ai-open-access ai-lg"></i> Open Access
+        </a>
+      <% } %>
   
   <% if (item.pubclosed) { %>
   <a role="button" href="<%= item.pubclosed %>" type="button" class="btn btn-outline-secondary btn-xs"> 
   <i class="bi bi-link-45deg ai-lg"></i> Publisher's Version 
+        </a>
+      <% } %>
+      
+    <% if (item.publink) { %>
+  <a role="button" href="<%= item.publink %>" type="button" class="btn btn-outline-secondary btn-xs"> 
+  <i class="bi bi-newspaper ai-lg"></i>  Link to Article 
         </a>
       <% } %>
       

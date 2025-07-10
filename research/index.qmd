@@ -6,7 +6,7 @@ listing:
 
   - id: book-projects
     include: 
-      type: "Book"
+      type: "Book Manuscript"
     contents: papers.yaml
     template: papers.ejs
     filter-ui: false
@@ -33,6 +33,17 @@ listing:
     sort: "date desc" 
     sort-ui: false
     categories: true
+    
+  - id: popular-press
+    include: 
+      type: "Popular"
+    contents: papers.yaml
+    template: papers.ejs
+    #filter-ui: true
+    sort: "date desc" 
+    sort-ui: false
+    categories: true
+    
 toc: true    
 page-layout: article
 css: |
@@ -55,3 +66,10 @@ css: |
 
 ::: {#working-papers}
 :::
+
+## Popular Press
+
+::: {#popular-press}
+:::
+
+## 

@@ -136,6 +136,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-popular-press .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-type','listing-author','listing-date','listing-journal','listing-publink','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-type","listing-author","listing-date","listing-journal","listing-publink","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-popular-press'] = new List('listing-popular-press', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -221,9 +249,11 @@ window.Quarto = {
   <li><a href="#book-projects" id="toc-book-projects" class="nav-link active" data-scroll-target="#book-projects">Book Projects</a></li>
   <li><a href="#published-papers" id="toc-published-papers" class="nav-link" data-scroll-target="#published-papers">Published Papers</a></li>
   <li><a href="#working-papers" id="toc-working-papers" class="nav-link" data-scroll-target="#working-papers">Working Papers</a></li>
+  <li><a href="#popular-press" id="toc-popular-press" class="nav-link" data-scroll-target="#popular-press">Popular Press</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(10)</span></div><div class="category" data-category="Democratic Erosion">Democratic Erosion <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Electoral Institutions">Electoral Institutions <span class="quarto-category-count">(2)</span></div><div class="category" data-category="LGBTQ+ Politics">LGBTQ+ Politics <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Latin American Politics">Latin American Politics <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Methods">Methods <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Participation">Participation <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Political Economy">Political Economy <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Public Opinion">Public Opinion <span class="quarto-category-count">(3)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(14)</span></div><div class="category" data-category="American Politics">American Politics <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Democratic Erosion">Democratic Erosion <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Electoral Institutions">Electoral Institutions <span class="quarto-category-count">(3)</span></div><div class="category" data-category="LGBTQ+ Politics">LGBTQ+ Politics <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Latin American Politics">Latin American Politics <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Methods">Methods <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Participation">Participation <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Political Economy">Political Economy <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Public Opinion">Public Opinion <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -277,6 +307,9 @@ h1.title {
   <!-- paper info for published work -->
   
   
+  <!-- paper info for popular press -->
+  
+  
   <br>
   
   </p><div class="buttons">
@@ -289,9 +322,11 @@ h1.title {
   
         
   
+      
   
   
-  
+      
+    
       
       
       
@@ -350,6 +385,9 @@ h1.title {
   <!-- paper info for published work -->
   
   
+  <!-- paper info for popular press -->
+  
+  
   <br>
   
   </p><div class="buttons">
@@ -362,9 +400,11 @@ h1.title {
   
         
   
+      
   
   
-  
+      
+    
       
       
       
@@ -440,6 +480,9 @@ h1.title {
 </small>
   
   
+  <!-- paper info for popular press -->
+  
+  
   <br>
   
   </p><div class="buttons">
@@ -460,13 +503,15 @@ h1.title {
         </a>
       
   
+      
+        <a role="button" href="https://doi.org/10.1017/S1049096525000381" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="ai ai-open-access ai-lg"></i> Open Access
+        </a>
+      
   
-  <a role="button" href="https://doi.org/10.1017/S1049096525000381" type="button" class="btn btn-outline-secondary btn-xs"> 
-  <i class="bi bi-link-45deg ai-lg"></i> Publisher's Version 
-</a>
   
-  
-  
+      
+    
       
       
       
@@ -525,6 +570,9 @@ h1.title {
 </small>
   
   
+  <!-- paper info for popular press -->
+  
+  
   <br>
   
   </p><div class="buttons">
@@ -545,13 +593,15 @@ h1.title {
         </a>
       
   
+      
+        <a role="button" href="https://www.pnas.org/doi/10.1073/pnas.2422543121" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="ai ai-open-access ai-lg"></i> Open Access
+        </a>
+      
   
-  <a role="button" href="https://www.pnas.org/doi/10.1073/pnas.2422543121" type="button" class="btn btn-outline-secondary btn-xs"> 
-  <i class="bi bi-link-45deg ai-lg"></i> Publisher's Version 
-</a>
   
-  
-  
+      
+    
       
       
       
@@ -618,6 +668,9 @@ h1.title {
 </small>
   
   
+  <!-- paper info for popular press -->
+  
+  
   <br>
   
   </p><div class="buttons">
@@ -638,13 +691,15 @@ h1.title {
         </a>
       
   
+      
+        <a role="button" href="https://www.cambridge.org/core/journals/latin-american-research-review/article/why-is-participation-low-in-referendums-lessons-from-latin-america/B174FB392AC488769EA84A279799AB88" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="ai ai-open-access ai-lg"></i> Open Access
+        </a>
+      
   
-  <a role="button" href="https://www.cambridge.org/core/journals/latin-american-research-review/article/why-is-participation-low-in-referendums-lessons-from-latin-america/B174FB392AC488769EA84A279799AB88" type="button" class="btn btn-outline-secondary btn-xs"> 
-  <i class="bi bi-link-45deg ai-lg"></i> Publisher's Version 
-</a>
   
-  
-  
+      
+    
       
       
       
@@ -688,7 +743,7 @@ h1.title {
       </div>
     </li>
   
-    <li data-index="3" data-categories="Democratic Erosion" data-listing-date-sort="1706763600000">
+    <li data-index="3" data-categories="Democratic Erosion,American Politics" data-listing-date-sort="1706763600000">
     <div class="article-entry">
   Expert Bias and Democratic Erosion: Assessing Expert Perceptions of Contemporary American Democracy 
   <br>
@@ -701,6 +756,9 @@ h1.title {
   <small class="text-muted">
   2024. Olivier Bergeron-Boutin, John Carey, Gretchen Helmke, Eli G. Rau. <em>PS: Political Science and Politics</em>.
 </small>
+  
+  
+  <!-- paper info for popular press -->
   
   
   <br>
@@ -719,13 +777,15 @@ h1.title {
   
         
   
+      
+        <a role="button" href="https://www.cambridge.org/core/journals/ps-political-science-and-politics/article/expert-bias-and-democratic-erosion-assessing-expert-perceptions-of-contemporary-american-democracy/0620719DD8C8A4FE1055AF268A3732E0" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="ai ai-open-access ai-lg"></i> Open Access
+        </a>
+      
   
-  <a role="button" href="https://www.cambridge.org/core/journals/ps-political-science-and-politics/article/expert-bias-and-democratic-erosion-assessing-expert-perceptions-of-contemporary-american-democracy/0620719DD8C8A4FE1055AF268A3732E0" type="button" class="btn btn-outline-secondary btn-xs"> 
-  <i class="bi bi-link-45deg ai-lg"></i> Publisher's Version 
-</a>
   
-  
-  
+      
+    
       
       
       
@@ -784,6 +844,9 @@ h1.title {
 </small>
   
   
+  <!-- paper info for popular press -->
+  
+  
   <br>
   
   </p><div class="buttons">
@@ -804,13 +867,15 @@ h1.title {
         </a>
       
   
-  
+      
   
   
   <a role="button" href="https://journals.sagepub.com/doi/abs/10.1177/00104140211047406" type="button" class="btn btn-outline-secondary btn-xs"> 
   <i class="bi bi-link-45deg ai-lg"></i> Publisher's Version 
         </a>
       
+      
+    
       
       
       
@@ -854,7 +919,7 @@ h1.title {
       </div>
     </li>
   
-    <li data-index="5" data-categories="Participation,Political Economy" data-listing-date-sort="1598932800000">
+    <li data-index="5" data-categories="Participation,Political Economy,American Politics" data-listing-date-sort="1598932800000">
     <div class="article-entry">
   Beyond Opportunity Costs: Campaign Messages, Anger, and Turnout among the Unemployed 
   <br>
@@ -867,6 +932,9 @@ h1.title {
   <small class="text-muted">
   2020. S. Erdem Aytaç, Eli G. Rau, Susan Stokes. <em>British Journal of Political Science</em>.
 </small>
+  
+  
+  <!-- paper info for popular press -->
   
   
   <br>
@@ -889,13 +957,15 @@ h1.title {
         </a>
       
   
+      
+        <a role="button" href="https://www.cambridge.org/core/journals/british-journal-of-political-science/article/beyond-opportunity-costs-campaign-messages-anger-and-turnout-among-the-unemployed/444928192590BEE9B4FB47BB4B7507D9" type="button" class="btn btn-outline-secondary btn-xs"> 
+          <i class="ai ai-open-access ai-lg"></i> Open Access
+        </a>
+      
   
-  <a role="button" href="https://www.cambridge.org/core/journals/british-journal-of-political-science/article/beyond-opportunity-costs-campaign-messages-anger-and-turnout-among-the-unemployed/444928192590BEE9B4FB47BB4B7507D9" type="button" class="btn btn-outline-secondary btn-xs"> 
-  <i class="bi bi-link-45deg ai-lg"></i> Publisher's Version 
-</a>
   
-  
-  
+      
+    
       
       
       
@@ -977,6 +1047,9 @@ h1.title {
   <!-- paper info for published work -->
   
   
+  <!-- paper info for popular press -->
+  
+  
   <br>
   
   </p><div class="buttons">
@@ -989,9 +1062,11 @@ h1.title {
   
         
   
+      
   
   
-  
+      
+    
       
       
       
@@ -1044,6 +1119,9 @@ h1.title {
   <!-- paper info for published work -->
   
   
+  <!-- paper info for popular press -->
+  
+  
   <br>
   
   </p><div class="buttons">
@@ -1056,9 +1134,11 @@ h1.title {
   
         
   
+      
   
   
-  
+      
+    
       
       
       
@@ -1095,6 +1175,308 @@ h1.title {
 No matching items
 </div>
 </div>
+</section>
+<section id="popular-press" class="level2">
+<h2 class="anchored" data-anchor-id="popular-press">Popular Press</h2>
+<div id="listing-popular-press" class="quarto-listing quarto-listing-container-custom">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
+
+<style>
+h1.title {
+  display: none;
+}
+</style>
+  
+  
+  
+  <ul class="list">
+  
+    <li data-index="0" data-categories="Participation,Latin American Politics,Electoral Institutions" data-listing-date-sort="1663300800000">
+    <div class="article-entry">
+  Chile’s new voting rules may have derailed the new Constitution 
+  <br>
+  <p>
+  <!-- paper info for not-yet-published work -->
+  
+  
+  <!-- paper info for published work -->
+  
+  
+  <!-- paper info for popular press -->
+  
+  <small class="text-muted">
+  Sep 16, 2022. Lautaro Cella, Eli Rau. <em>Washington Post (Monkey Cage)</em>.
+</small>
+  
+  
+  <br>
+  
+  </p><div class="buttons">
+
+  
+  
+    
+
+  
+  
+        
+  
+      
+  
+  
+      
+    
+  <a role="button" href="https://www.washingtonpost.com/politics/2022/09/16/chile-constitution-mandatory-voting/" type="button" class="btn btn-outline-secondary btn-xs"> 
+  <i class="bi bi-newspaper ai-lg"></i>  Link to Article 
+        </a>
+      
+      
+      
+      
+      
+      
+      
+              
+      
+        
+      </div> 
+      
+      
+      
+
+      
+      
+      
+            
+      
+      
+            <p></p>
+      
+        
+  
+      
+
+      <hr>
+      </div>
+    </li>
+  
+    <li data-index="1" data-categories="Participation,American Politics" data-listing-date-sort="1661400000000">
+    <div class="article-entry">
+  Kansas voted for abortion rights. What does that mean for the midterms? 
+  <br>
+  <p>
+  <!-- paper info for not-yet-published work -->
+  
+  
+  <!-- paper info for published work -->
+  
+  
+  <!-- paper info for popular press -->
+  
+  <small class="text-muted">
+  Aug 25, 2022. Eli Rau, Radha Sarkar, Susan Stokes. <em>Washington Post (Monkey Cage)</em>.
+</small>
+  
+  
+  <br>
+  
+  </p><div class="buttons">
+
+  
+  
+    
+
+  
+  
+        
+  
+      
+  
+  
+      
+    
+  <a role="button" href="https://www.washingtonpost.com/politics/2022/08/25/kansas-abortion-democrats-midterms/" type="button" class="btn btn-outline-secondary btn-xs"> 
+  <i class="bi bi-newspaper ai-lg"></i>  Link to Article 
+        </a>
+      
+      
+      
+      
+      
+      
+      
+              
+      
+        
+      </div> 
+      
+      
+      
+
+      
+      
+      
+            
+      
+      
+            <p></p>
+      
+        
+  
+      
+
+      <hr>
+      </div>
+    </li>
+  
+    <li data-index="2" data-categories="Participation,American Politics" data-listing-date-sort="1486357200000">
+    <div class="article-entry">
+  People who protest almost certainly vote 
+  <br>
+  <p>
+  <!-- paper info for not-yet-published work -->
+  
+  
+  <!-- paper info for published work -->
+  
+  
+  <!-- paper info for popular press -->
+  
+  <small class="text-muted">
+  Feb 6, 2017. S. Erdem Aytaç, Susan Stokes, Eli Rau. <em>Washington Post (Monkey Cage)</em>.
+</small>
+  
+  
+  <br>
+  
+  </p><div class="buttons">
+
+  
+  
+    
+
+  
+  
+        
+  
+      
+  
+  
+      
+    
+  <a role="button" href="https://www.washingtonpost.com/news/monkey-cage/wp/2017/02/06/people-who-protest-almost-certainly-vote/" type="button" class="btn btn-outline-secondary btn-xs"> 
+  <i class="bi bi-newspaper ai-lg"></i>  Link to Article 
+        </a>
+      
+      
+      
+      
+      
+      
+      
+              
+      
+        
+      </div> 
+      
+      
+      
+
+      
+      
+      
+            
+      
+      
+            <p></p>
+      
+        
+  
+      
+
+      <hr>
+      </div>
+    </li>
+  
+    <li data-index="3" data-categories="Political Economy,American Politics" data-listing-date-sort="1478059200000">
+    <div class="article-entry">
+  Trump supporters vastly overestimate unemployment — and they blame politicians for it 
+  <br>
+  <p>
+  <!-- paper info for not-yet-published work -->
+  
+  
+  <!-- paper info for published work -->
+  
+  
+  <!-- paper info for popular press -->
+  
+  <small class="text-muted">
+  Nov 2, 2016. S. Erdem Aytaç, Eli Rau, Susan Stokes. <em>Washington Post (Monkey Cage)</em>.
+</small>
+  
+  
+  <br>
+  
+  </p><div class="buttons">
+
+  
+  
+    
+
+  
+  
+        
+  
+      
+  
+  
+      
+    
+  <a role="button" href="https://www.washingtonpost.com/news/monkey-cage/wp/2016/11/02/trump-supporters-vastly-overestimate-unemployment-and-they-blame-politicians-for-it/" type="button" class="btn btn-outline-secondary btn-xs"> 
+  <i class="bi bi-newspaper ai-lg"></i>  Link to Article 
+        </a>
+      
+      
+      
+      
+      
+      
+      
+              
+      
+        
+      </div> 
+      
+      
+      
+
+      
+      
+      
+            
+      
+      
+            <p></p>
+      
+        
+  
+      
+
+      <hr>
+      </div>
+    </li>
+  
+</ul>
+
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
 
 
 

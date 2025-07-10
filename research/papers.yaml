@@ -15,6 +15,7 @@
   categories: 
     - Participation
     - Political Economy
+    - American Politics
   abstract: "Are people under economic stress more or less likely to vote, and why? With large observational datasets and a survey experiment involving unemployed Americans, we show that unemployment depresses participation. But it does so more powerfully when the unemployment rate is low, less powerfully when it is high. Whereas earlier studies have explained lower turnout among the unemployed by stressing the especially high opportunity costs these would-be voters face, our evidence points to the psychological effects of unemployment and of campaign messages about it. When unemployment is high, challengers have an incentive to blame the incumbent, thus eliciting anger among the unemployed. Psychologists have shown anger to be an approach or mobilizing emotion. When joblessness is low, campaigns tend to ignore it. The jobless thus remain in states of depression and self-blame, which are demobilizing emotions."
 
 
@@ -49,6 +50,7 @@
   pdf: "../files/expert_bias.pdf"
   categories:
     - Democratic Erosion
+    - American Politics
   abstract: "In an important contribution to scholarship on measuring democratic performance, Little and Meng suggest that bias among expert coders accounts for erosion in ratings of democratic quality and performance observed in recent years. Drawing on 19 waves of survey data on US democracy from academic experts and from the public collected by Bright Line Watch (BLW), this study looks for but does not find manifestations of the type of expert bias that Little and Meng posit. Although we are unable to provide a direct test of Little and Meng’s hypothesis, several analyses provide reassurance that expert samples are an informative source to measure democratic performance. We find that respondents who have participated more frequently in BLW surveys, who have coded for V-Dem, and who are vocal about the state of American democracy on Twitter are no more pessimistic than other participants."
 
 - title: "Why is Participation Low in Referendums? Lessons from Latin America"
@@ -71,7 +73,7 @@
   abstract: "Whether referendums, initiatives, and other mechanisms of direct democracy enhance representative systems is a matter of debate. Skeptics note—among other criticisms—that turnout tends to be low in referendums, often lower than in candidate elections in the same country. If citizens do not care enough to participate, how useful can these mechanisms be for improving the quality of democratic systems? We argue that low referendum turnout has as much to do with parties’ disincentives to mobilize voters as it does with voter disinterest. Prior research on political behavior in referendums has focused largely on Europe and assumes that voters view them as elections of lesser importance. By shifting focus to Latin America, we introduce more variation in the features of political parties that influence levels of turnout. We draw on cross-national evidence, qualitative research in Colombia, and quantitative analysis of municipal-level referendum voting behavior in Brazil. The key to understanding low voter turnout in these settings is the relatively weaker incentives that political parties have to turn out the vote when control over office is not at stake. We demonstrate that, in clientelistic systems, party operatives have particularly weak incentives to get their constituents out to the polls."
   
 - title: "Can Compulsory Voting Strengthen Democracy?"    
-  type: "Book"
+  type: "Book Manuscript"
   author: 
     - Eli G. Rau
   date: 2024-09-01
@@ -89,7 +91,7 @@ Employing a wide variety of methods and extensive new data collection on how cou
 #  previewtext: "../files/ch1.pdf"
 
 - title: "Towards Tolerance and Acceptance: Public Opinion and LGBTQ+ Politics in Latin America"
-  type: "Book"
+  type: "Book Manuscript"
   author: 
     - Mariela Daby
     - Eli G. Rau
@@ -177,3 +179,61 @@ Employing a wide variety of methods and extensive new data collection on how cou
     - Public Opinion
     - LGBTQ+ Politics
     - Latin American Politics
+    
+    
+- title: "People who protest almost certainly vote"
+  type: "Popular"
+  author:
+    - S. Erdem Aytaç
+    - Susan Stokes
+    - Eli Rau
+  date: 2017-02-06
+  journal: "Washington Post (Monkey Cage)"
+  publink: "https://www.washingtonpost.com/news/monkey-cage/wp/2017/02/06/people-who-protest-almost-certainly-vote/"
+  categories:
+    - Participation
+    - American Politics
+    
+    
+    
+- title: "Trump supporters vastly overestimate unemployment — and they blame politicians for it"
+  type: "Popular"
+  author:
+    - S. Erdem Aytaç
+    - Eli Rau
+    - Susan Stokes
+  date: 2016-11-02
+  journal: "Washington Post (Monkey Cage)"
+  publink: "https://www.washingtonpost.com/news/monkey-cage/wp/2016/11/02/trump-supporters-vastly-overestimate-unemployment-and-they-blame-politicians-for-it/"
+  categories:
+    - Political Economy
+    - American Politics
+
+
+- title: "Kansas voted for abortion rights. What does that mean for the midterms?"
+  type: "Popular"
+  author:
+    - Eli Rau
+    - Radha Sarkar
+    - Susan Stokes
+  date: 2022-08-25
+  journal: "Washington Post (Monkey Cage)"
+  publink: "https://www.washingtonpost.com/politics/2022/08/25/kansas-abortion-democrats-midterms/"
+  categories:
+    - Participation
+    - American Politics
+
+- title: "Chile’s new voting rules may have derailed the new Constitution"
+  type: "Popular"
+  author:
+    - Lautaro Cella
+    - Eli Rau
+  date: 2022-09-16
+  journal: "Washington Post (Monkey Cage)"
+  publink: "https://www.washingtonpost.com/politics/2022/09/16/chile-constitution-mandatory-voting/"
+  categories:
+    - Participation
+    - Latin American Politics
+    - Electoral Institutions
+
+
