@@ -96,12 +96,13 @@ Employing a wide variety of methods and extensive new data collection on how cou
     - Mariela Daby
     - Eli G. Rau
   date: 2024-08-15
-  status: "Under contract at <em>Cambridge Elements in Gender & Politics</em>"
+  status: "Forthcoming at <em>Cambridge Elements in Gender & Politics</em>"
   categories:
     - Public Opinion
     - LGBTQ+ Politics
     - Latin American Politics
-  booksummary: "Latin America has experienced an unprecedented expansion of LGBTQ+ rights in recent years. Although immense obstacles remain for LGBTQ+ citizens, countries such as Argentina and Uruguay have become world leaders in enacting LGBTQ+ rights. At the same time, public opinion has shifted dramatically towards more positive sentiments. What underlies these shifting attitudes? We show how individual-level behavioral mechanisms interact with broad structural factors — including economic incentives, demographic changes, and legacies of human rights violations — to move people from prejudice and rejection to tolerance and acceptance."
+  booksummary: "Latin America has experienced an unprecedented expansion of LGBTQ+ rights in recent decades. Although obstacles remain for LGBTQ+ citizens, countries such as Uruguay and Argentina have become world leaders in enacting LGBTQ+ rights, and public opinion has shifted dramatically towards more positive sentiments. What underlies these shifting attitudes? Drawing on both survey data and interviews, we describe multiple processes by which individuals move from prejudice and rejection to tolerance and acceptance. We show that attitude change is often slow and gradual, and that explaining these trends requires attention to both macro-level forces and individual experiences. In Latin America, a boom in international tourism created economic incentives for tolerance; broad shifts in demographics and the media landscape created openings for people to reconsider what a family looks like; and societies grappling with human rights abuses were more receptive to appeals for protecting LGBTQ+ rights as human rights."
+
   
 - title: "Measuring Gender in Comparative Survey Research"
   type: "Article"
@@ -139,8 +140,8 @@ Employing a wide variety of methods and extensive new data collection on how cou
     - Political Economy
   abstract: "Among the most pressing problems societies face today are economic inequality and the erosion of democratic norms and institutions. In fact the two problems—inequality and democratic erosion—are linked. In a large cross-national statistical study of risk factors for democratic erosion, we establish that economic inequality is one of the strongest predictors of where and when democracy erodes. Even wealthy and longstanding democracies are vulnerable if they are highly unequal (though national wealth might provide some resiliency). The association between inequality and risk of democratic backsliding is robust, and holds under different measures and structures of both income inequality and wealth inequality. The association is unlikely to be a case of reverse causation. For concerned citizens seeking to understand why so many democracies are eroding and how to stop this process, our study indicates that policies for ameliorating inequality are a promising path forward."
   related: 
-    - "<u>Related Letter</u>: Rau, E.G. and Stokes, S.C. (2025). Reply to Fiscella: Why study erosion now? And why these risk factors? <em>Proceedings of the National Academy of Sciences</em>, 122(12), e2501249122. <a href='https://www.pnas.org/doi/abs/10.1073/pnas.2501249122' target='_blank'>Link</a> / <a href='../files/pnas2025-reply.pdf' target='_blank'>PDF</a>"
-
+    - "<u>Related Letter</u>: Rau, E.G. and S.C. Stokes (2025). Reply to Fiscella: Why study erosion now? And why these risk factors? <em>Proceedings of the National Academy of Sciences</em>, 122(12), e2501249122. <a href='https://www.pnas.org/doi/abs/10.1073/pnas.2501249122' target='_blank'>Link</a> / <a href='../files/pnas2025-reply.pdf' target='_blank'>PDF</a>"
+    
 
 - title: "Public Tolerance for Anti-Democratic Behavior"
   type: "Paper"
@@ -236,4 +237,16 @@ Employing a wide variety of methods and extensive new data collection on how cou
     - Latin American Politics
     - Electoral Institutions
 
-
+- title: "Economic Inequality Threatens Democracy"
+  type: "Popular"
+  author:
+    - Eli G. Rau
+    - Susan Stokes
+  date: 2025-09-23
+  journal: "American Educator"
+  publink: "https://www.aft.org/ae/fall2025/rau_stokes"
+  categories:
+    - Democratic Erosion
+    - Political Economy
+  pdf: "../files/aft2025.pdf"
+  

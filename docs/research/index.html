@@ -146,9 +146,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-type','listing-author','listing-date','listing-journal','listing-publink','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-title','listing-type','listing-author','listing-date','listing-journal','listing-publink','listing-categories','listing-pdf',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-type","listing-author","listing-date","listing-journal","listing-publink","listing-categories"],
+      searchColumns: ["listing-title","listing-type","listing-author","listing-date","listing-journal","listing-publink","listing-categories","listing-pdf"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -253,7 +253,7 @@ window.Quarto = {
   <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(14)</span></div><div class="category" data-category="American Politics">American Politics <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Democratic Erosion">Democratic Erosion <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Electoral Institutions">Electoral Institutions <span class="quarto-category-count">(3)</span></div><div class="category" data-category="LGBTQ+ Politics">LGBTQ+ Politics <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Latin American Politics">Latin American Politics <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Methods">Methods <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Participation">Participation <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Political Economy">Political Economy <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Public Opinion">Public Opinion <span class="quarto-category-count">(3)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(15)</span></div><div class="category" data-category="American Politics">American Politics <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Democratic Erosion">Democratic Erosion <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Electoral Institutions">Electoral Institutions <span class="quarto-category-count">(3)</span></div><div class="category" data-category="LGBTQ+ Politics">LGBTQ+ Politics <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Latin American Politics">Latin American Politics <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Methods">Methods <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Participation">Participation <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Political Economy">Political Economy <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Public Opinion">Public Opinion <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -378,7 +378,7 @@ h1.title {
   <!-- paper info for not-yet-published work -->
   
   <small class="text-muted">
-  Mariela Daby, Eli G. Rau. Under contract at <em>Cambridge Elements in Gender &amp; Politics</em>.
+  Mariela Daby, Eli G. Rau. Forthcoming at <em>Cambridge Elements in Gender &amp; Politics</em>.
 </small>
   
   
@@ -427,7 +427,7 @@ h1.title {
         <small class="text-secondary">
           <span class="note">
           <details><summary>View Summary</summary>
-          Latin America has experienced an unprecedented expansion of LGBTQ+ rights in recent years. Although immense obstacles remain for LGBTQ+ citizens, countries such as Argentina and Uruguay have become world leaders in enacting LGBTQ+ rights. At the same time, public opinion has shifted dramatically towards more positive sentiments. What underlies these shifting attitudes? We show how individual-level behavioral mechanisms interact with broad structural factors — including economic incentives, demographic changes, and legacies of human rights violations — to move people from prejudice and rejection to tolerance and acceptance.
+          Latin America has experienced an unprecedented expansion of LGBTQ+ rights in recent decades. Although obstacles remain for LGBTQ+ citizens, countries such as Uruguay and Argentina have become world leaders in enacting LGBTQ+ rights, and public opinion has shifted dramatically towards more positive sentiments. What underlies these shifting attitudes? Drawing on both survey data and interviews, we describe multiple processes by which individuals move from prejudice and rejection to tolerance and acceptance. We show that attitude change is often slow and gradual, and that explaining these trends requires attention to both macro-level forces and individual experiences. In Latin America, a boom in international tourism created economic incentives for tolerance; broad shifts in demographics and the media landscape created openings for people to reconsider what a family looks like; and societies grappling with human rights abuses were more receptive to appeals for protecting LGBTQ+ rights as human rights.
           </details></span>    
         </small>
       
@@ -641,7 +641,7 @@ h1.title {
           <small class="text-muted">
   <ul class="related-list">
   
-        <li><u>Related Letter</u>: Rau, E.G. and Stokes, S.C. (2025). Reply to Fiscella: Why study erosion now? And why these risk factors? <em>Proceedings of the National Academy of Sciences</em>, 122(12), e2501249122. <a href="https://www.pnas.org/doi/abs/10.1073/pnas.2501249122" target="_blank">Link</a> / <a href="../files/pnas2025-reply.pdf" target="_blank">PDF</a></li>
+        <li><u>Related Letter</u>: Rau, E.G. and S.C. Stokes (2025). Reply to Fiscella: Why study erosion now? And why these risk factors? <em>Proceedings of the National Academy of Sciences</em>, 122(12), e2501249122. <a href="https://www.pnas.org/doi/abs/10.1073/pnas.2501249122" target="_blank">Link</a> / <a href="../files/pnas2025-reply.pdf" target="_blank">PDF</a></li>
       
     </ul>
     </small>
@@ -1192,7 +1192,80 @@ h1.title {
   
   <ul class="list">
   
-    <li data-index="0" data-categories="Participation,Latin American Politics,Electoral Institutions" data-listing-date-sort="1663300800000">
+    <li data-index="0" data-categories="Democratic Erosion,Political Economy" data-listing-date-sort="1758600000000">
+    <div class="article-entry">
+  Economic Inequality Threatens Democracy 
+  <br>
+  <p>
+  <!-- paper info for not-yet-published work -->
+  
+  
+  <!-- paper info for published work -->
+  
+  
+  <!-- paper info for popular press -->
+  
+  <small class="text-muted">
+  Sep 23, 2025. Eli G. Rau, Susan Stokes. <em>American Educator</em>.
+</small>
+  
+  
+  <br>
+  
+  </p><div class="buttons">
+
+  
+  
+    
+
+  
+  <a role="button" href="../files/aft2025.pdf" type="button" class="btn btn-outline-secondary btn-xs"> 
+  <i class="bi bi-file-earmark-pdf ai-lg"></i> PDF 
+</a> 
+  
+  
+        
+  
+      
+  
+  
+      
+    
+  <a role="button" href="https://www.aft.org/ae/fall2025/rau_stokes" type="button" class="btn btn-outline-secondary btn-xs"> 
+  <i class="bi bi-newspaper ai-lg"></i>  Link to Article 
+        </a>
+      
+      
+      
+      
+      
+      
+      
+              
+      
+        
+      </div> 
+      
+      
+      
+
+      
+      
+      
+            
+      
+      
+            <p></p>
+      
+        
+  
+      
+
+      <hr>
+      </div>
+    </li>
+  
+    <li data-index="1" data-categories="Participation,Latin American Politics,Electoral Institutions" data-listing-date-sort="1663300800000">
     <div class="article-entry">
   Chile’s new voting rules may have derailed the new Constitution 
   <br>
@@ -1261,7 +1334,7 @@ h1.title {
       </div>
     </li>
   
-    <li data-index="1" data-categories="Participation,American Politics" data-listing-date-sort="1661400000000">
+    <li data-index="2" data-categories="Participation,American Politics" data-listing-date-sort="1661400000000">
     <div class="article-entry">
   Kansas voted for abortion rights. What does that mean for the midterms? 
   <br>
@@ -1330,7 +1403,7 @@ h1.title {
       </div>
     </li>
   
-    <li data-index="2" data-categories="Participation,American Politics" data-listing-date-sort="1486357200000">
+    <li data-index="3" data-categories="Participation,American Politics" data-listing-date-sort="1486357200000">
     <div class="article-entry">
   People who protest almost certainly vote 
   <br>
@@ -1399,7 +1472,7 @@ h1.title {
       </div>
     </li>
   
-    <li data-index="3" data-categories="Political Economy,American Politics" data-listing-date-sort="1478059200000">
+    <li data-index="4" data-categories="Political Economy,American Politics" data-listing-date-sort="1478059200000">
     <div class="article-entry">
   Trump supporters vastly overestimate unemployment — and they blame politicians for it 
   <br>
