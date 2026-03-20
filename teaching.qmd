@@ -7,7 +7,7 @@ page-layout: article
 format: html
 ---
 
-### Tecnológico de Monterrey (Instructor of Record)
+### Tecnológico de Monterrey
 
 ```{=html}
 <i class="bi bi-diagram-2 ai-lg"></i> &nbsp; Political Analysis (undergraduate)
@@ -20,7 +20,17 @@ format: html
 
 <br/>
 ```
-### Yale University (Teaching Fellow)
+### Yale University
+
+##### Instructor of Record
+
+```{=html}
+<i class="bi bi-bank ai-lg"></i> &nbsp; The Political Economy of Democratic Erosion (undergraduate)
+<br/>
+
+<br/>
+```
+##### Teaching Fellow
 
 ```{=html}
 <small class="text-secondary">

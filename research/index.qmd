@@ -6,7 +6,9 @@ listing:
 
   - id: book-projects
     include: 
-      type: "Book Manuscript"
+      type: 
+        - "Book Manuscript"
+        - "Book"
     contents: papers.yaml
     template: papers.ejs
     filter-ui: false

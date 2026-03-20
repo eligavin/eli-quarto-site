@@ -31,6 +31,13 @@ h1.title {
 </small>
   <% } %>
   
+    <% if (item.type === 'Book') { %>
+  <small class="text-muted">
+  <%= item.year %>. <%= item.author %>. <em><%= item.publisher %></em>.
+</small>
+  <% } %>
+  
+  
   <!-- paper info for popular press -->
   <% if (item.type === 'Popular') { %>
   <small class="text-muted">
@@ -84,6 +91,12 @@ h1.title {
         </a>
       <% } %>
       
+          <% if (item.booklink) { %>
+  <a role="button" href="<%= item.booklink %>" type="button" class="btn btn-outline-secondary btn-xs"> 
+  <i class="bi bi-book"></i>  Available Here 
+        </a>
+      <% } %>
+      
       
       <% if (item.dataverse) { %>
         <a role="button" href="<%= item.dataverse %>" type="button" class="btn btn-outline-secondary btn-xs"> 
@@ -111,7 +124,7 @@ h1.title {
       </div> 
       
       
-      <% if ((item.prereg || item.dataverse || item.pdf || item.appendix || item.pubclosed || item.pubopen || item.taboc || item.previewtext || item.buypublisher || item.amazon) && (item.abstract || item.booksummary)) { %>
+      <% if ((item.prereg || item.dataverse || item.pdf || item.appendix || item.pubclosed || item.pubopen || item.taboc || item.previewtext || item.buypublisher || item.amazon || item.booklink) && (item.abstract || item.booksummary)) { %>
           <div style="height: 5px;"></div>
             <% } %>
 

@@ -76,8 +76,8 @@
   type: "Book Manuscript"
   author: 
     - Eli G. Rau
-  date: 2024-09-01
-  status: "Book manuscript"
+  date: 2026-09-01
+  status: "Under review at <em>Cambridge University Press</em>"
   categories: 
     - Participation
     - Electoral Institutions
@@ -91,18 +91,19 @@ Employing a wide variety of methods and extensive new data collection on how cou
 #  previewtext: "../files/ch1.pdf"
 
 - title: "Towards Tolerance and Acceptance: Public Opinion and LGBTQ+ Politics in Latin America"
-  type: "Book Manuscript"
+  type: "Book"
   author: 
     - Mariela Daby
     - Eli G. Rau
-  date: 2024-08-15
-  status: "Forthcoming at <em>Cambridge Elements in Gender & Politics</em>"
+  date: 2026-01-15
+  year: 2026
+  publisher: "Cambridge Elements in Gender & Politics"
+  booklink: "https://www.cambridge.org/core/elements/towards-tolerance-and-acceptance/0E07A08EFA2BC763E35BFDE920A37A1F"
   categories:
     - Public Opinion
     - LGBTQ+ Politics
     - Latin American Politics
   booksummary: "Latin America has experienced an unprecedented expansion of LGBTQ+ rights in recent decades. Although obstacles remain for LGBTQ+ citizens, countries such as Uruguay and Argentina have become world leaders in enacting LGBTQ+ rights, and public opinion has shifted dramatically towards more positive sentiments. What underlies these shifting attitudes? Drawing on both survey data and interviews, we describe multiple processes by which individuals move from prejudice and rejection to tolerance and acceptance. We show that attitude change is often slow and gradual, and that explaining these trends requires attention to both macro-level forces and individual experiences. In Latin America, a boom in international tourism created economic incentives for tolerance; broad shifts in demographics and the media landscape created openings for people to reconsider what a family looks like; and societies grappling with human rights abuses were more receptive to appeals for protecting LGBTQ+ rights as human rights."
-
   
 - title: "Measuring Gender in Comparative Survey Research"
   type: "Article"
@@ -167,7 +168,7 @@ Employing a wide variety of methods and extensive new data collection on how cou
   voters begin to see it as more democratic — perhaps restoring some balance to democracy by evening the 
   playing field, or ''punishing'' the opposition to deter future anti-democratic moves."
 
-- title: "Attitudes towards Gender and Sexual Minorities in Latin America"
+- title: "Attitudes towards LGB and TGD Rights in Latin America"
   type: "Paper"
   author:
     - Oscar Castorena
@@ -180,6 +181,7 @@ Employing a wide variety of methods and extensive new data collection on how cou
     - Public Opinion
     - LGBTQ+ Politics
     - Latin American Politics
+  abstract: "Research on attitudes towards transgender and gender-diverse (TGD) subgroups lags behind research on opinion on the lesbian, gay, and bisexual (LGB) population, leaving open questions about public opinion on these two LGBTQ+ subgroups, in general and in particular in the Global South. While a sizeable gap exists in US public opinion toward TGD and LGB rights, we do not know whether that finding is generalizable to other contexts. With a focus on Latin America, we draw on a range of scholarship to identify factors that could result in a similar divergence of attitudes towards these subgroups or, instead, relative convergence. Our analyses primarily focus on novel survey data from representative surveys across thirteen Latin American countries. Our results demonstrate a fair amount of convergence in mean levels, non-response rates, and predictors of views on LGB vs. TGD rights. We present some notable differences across countries and issues, with the former varying by socio-political context and the latter varying across political and non- political domains. We identify these patterns as constituting a future agenda for researchers of opinion on LGBTQ+ topics. We conclude that, in the contemporary period, the Latin American public holds fairly similar mental schemas toward LGB and TGD groups."
     
     
 - title: "People who protest almost certainly vote"
